@@ -8,6 +8,8 @@ A webhook middleware for the ifttt.com service
 2. You can use any username/password combination you want. ifttt will accept the authentication irrespective of what details you enter here. These details will be passed along by the webhook as well, so that you may use these as your authentication medium, perhaps.
 3. Create a recipe in ifttt which would post to your "wordpress channel". In the "Tags" field, use the webhook url that you want to use.
 
+**Note:** `ifttt.captnemo.in` might be down. Its running on my aws account, which may go down occasionaly. Please read instructions below on how to use it on your own server.
+
 ![Connecting to ifttt-webhook](http://i.imgur.com/RA0Jb.png "You can type in any username/password you want")
 
 Any username/password combination will be accepted, and passed through to the webhook url. A blank password is considered valid, but ifttt invalidates a blank username.
